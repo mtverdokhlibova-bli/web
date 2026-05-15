@@ -1,0 +1,129 @@
+body{
+    background-color: #C9A5AA;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px 0;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+.date{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #E9E9E9;
+    width: 100%;
+    color: #000000;
+    padding: 4px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+header{
+    max-width: 760px;
+    margin: 0 auto;
+}
+nav{
+    background-color: #F4D3D3;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+nav ul li:hover{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 4px;
+}
+.navbar a:link{
+    text-decoration: none;
+    color: #006EBE;
+}
+.navbar a:visited{
+    color: #0B257D;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+article{
+    background-color: #FFFFFF;
+    max-width: 800px;
+    margin: 0 20px auto;
+    padding: 30px;
+    border-radius: 16px 16px 0 0;
+    gap: 30px;
+
+}
+figure{
+    background-color: #F4D3D3;
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 10px;
+    margin: 20px 0;
+}
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px 8px 8px 6px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 42px;
+    font-family: Verdana;
+}
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Verdana;
+    line-height: 100%;
+}
+.film {
+    padding-left: 20px;
+}
+.item{
+    padding: 10px 20px;
+    list-style-position: inside;
+    border-bottom: 1px solid #F4D3D3;
+}
+.list{
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.item:first-child {
+    background-color: #FCF5E9;
+}
+.item:nth-child(even) {
+    background-color: #F4D3D3;
+}
+.item:not(:last-child) {
+    border-bottom: 1px solid #C9A5AA;
+}
+footer{
+    background-color: #F4D3D3;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    max-width: 720px;
+    border-radius: 0 0 16px 16px;
+}
